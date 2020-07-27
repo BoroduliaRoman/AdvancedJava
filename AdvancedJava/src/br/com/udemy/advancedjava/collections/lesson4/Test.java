@@ -21,11 +21,16 @@ public class Test {
 	}
 	
 	private static void measureTime(List<Integer> list) {
+		
 		long start = System.currentTimeMillis();
 		
 		for(int i = 0; i < 1000000; i++ ) {
-			list.add(i);
-		}
+			list.add(0, i);
+		}		
+		
+//		for(int i = 0; i < 100000; i++) {
+//			list.get(i);
+//		}
 		
 		long end = System.currentTimeMillis();
 		
