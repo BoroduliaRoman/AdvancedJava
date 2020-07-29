@@ -7,9 +7,10 @@ public class Test {
 		Test test = new Test();
 		test.doWork();
 	}
-	
+
 	public synchronized void increment() {
 		counter++;
+
 	}
 
 	public void doWork() throws InterruptedException {
