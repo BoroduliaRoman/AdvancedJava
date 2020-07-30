@@ -1,6 +1,5 @@
 package br.com.udemy.advancedjava.collections.lesson14;
 
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 

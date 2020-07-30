@@ -1,9 +1,9 @@
 package br.com.udemy.advancedjava.collections.lesson11;
 
+
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
+
 
 public class Test {
 
@@ -13,7 +13,5 @@ public class Test {
 		map.put("Bob", 25);
 		map.put("Katy", 15);
 		map.put("Bill", 40);
-
-		Set<String> set = new HashSet<>();
 	}
 }

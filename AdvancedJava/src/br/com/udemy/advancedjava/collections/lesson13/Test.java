@@ -22,7 +22,7 @@ public class Test {
 		System.out.println(peopleSet);
 	}
 
-	private static void addElements(Collection collection) {
+	private static void addElements(Collection<Person> collection) {
 		collection.add(new Person(2, "To"));
 		collection.add(new Person(1, "Bob"));
 		collection.add(new Person(3, "Katy"));
